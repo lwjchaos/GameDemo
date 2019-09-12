@@ -172,7 +172,9 @@ public class MoveTurn : MonoBehaviour
             }
         }
 
-        follow.transform.position = transform.position;
+        Vector3 pos = transform.position;
+        pos.y = follow.transform.position.y;
+        follow.transform.position = pos;
         follow.transform.eulerAngles = transform.eulerAngles;
     }
 }

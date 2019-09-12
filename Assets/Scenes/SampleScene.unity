@@ -670,6 +670,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlockW
       objectReference: {fileID: 0}
+    - target: {fileID: 3937451334178620186, guid: c3a1a95d206d44fc08b8565750c9f007,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6209077032607021994, guid: c3a1a95d206d44fc08b8565750c9f007,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -860,6 +865,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BlockH
+      objectReference: {fileID: 0}
+    - target: {fileID: 8443454098404651195, guid: e837cceb17dc24282a5292808c723a0d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6429507484593488705, guid: e837cceb17dc24282a5292808c723a0d,
         type: 3}
